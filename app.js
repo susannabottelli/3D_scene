@@ -22,7 +22,7 @@ function main() {
     const texture = loader.load()
     loader.load(
         // load any image
-        'https://t3.ftcdn.net/jpg/03/66/15/30/360_F_366153001_8Sz67wI8s4CWm768IZlch9DXwlvExD4w.jpg',
+        '',
         () => {
             const rt = new THREE.WebGLCubeRenderTarget(texture.image.height)
             rt.fromEquirectangularTexture(renderer, texture)
